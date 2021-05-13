@@ -1,11 +1,11 @@
 # Jira-Automation
 JIRA-Automation
 
-# Running the Application
+## Running the Application
 
 C:\Users\Utente\PycharmProjects\Jira-Automation\JIRA handler> python main-jira.py
 
-# Below operations are possible with this project:
+## Below operations are possible with this project:
 
 1. Get All assigned Issues of a particular user
 
