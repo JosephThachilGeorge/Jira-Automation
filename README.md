@@ -1,7 +1,11 @@
 # Jira-Automation
 JIRA-Automation
 
-Below operations are possible with this project:
+# Running the Application
+
+C:\Users\Utente\PycharmProjects\Jira-Automation\JIRA handler> python main-jira.py
+
+# Below operations are possible with this project:
 
 #Get All assigned Issues of a particular user
 
@@ -18,7 +22,6 @@ Below operations are possible with this project:
 #Get All assigned LIVE IN PROGRESS Issues of a particular user
 
 #Get Description and summary of the Issues of a particular user
-
 
 #Store all data’s in jira-report.xlsx for each query
 
