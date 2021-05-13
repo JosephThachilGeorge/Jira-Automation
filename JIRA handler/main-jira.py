@@ -18,19 +18,19 @@ summary_list = []
 #Add additional lists for fields here
 description_list = []
 
-#Get All assigned Isuess of a particular user
+#Get All assigned Issues of a particular user
 issues_in_project = jira.search_issues('assignee=e17415')
-#Get All assigned STAGE Isuess of a particular user
+#Get All assigned STAGE Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and labels in (configurazionegiochistage)')
-#Get All assigned LIVE Isuess of a particular user
+#Get All assigned LIVE Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and labels in (configurazionegiochilive)')
-#Get All assigned LIVE OPNED Isuess of a particular user
+#Get All assigned LIVE OPNED Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and Status in (1) and labels in (configurazionegiochilive)')
-#Get All assigned STAGE OPNED Isuess of a particular user
+#Get All assigned STAGE OPNED Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and Status in (1) and labels in (configurazionegiochistage)')
-#Get All assigned STAGE IN PROGRESS Isuess of a particular user
+#Get All assigned STAGE IN PROGRESS Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and Status in (3) and labels in (configurazionegiochistage)')
-#Get All assigned LIVE IN PROGRESS Isuess of a particular user
+#Get All assigned LIVE IN PROGRESS Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and Status in (3) and labels in (configurazionegiochilive)')
 
 for issue in issues_in_project:
