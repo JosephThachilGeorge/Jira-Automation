@@ -21,7 +21,7 @@ C:\Users\Utente\PycharmProjects\Jira-Automation\JIRA handler> python main-jira.p
 
 7. Get All assigned LIVE IN PROGRESS Issues of a particular user
 
-8. Get Description and summary of the Issues of a particular user
+8. Get Description and Summary of the Issues of a particular user
 
 9. Store all data’s in jira-report.xlsx for each query
 
