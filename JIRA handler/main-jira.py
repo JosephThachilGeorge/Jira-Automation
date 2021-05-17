@@ -20,6 +20,8 @@ description_list = []
 
 #Get All assigned Issues of a particular user
 issues_in_project = jira.search_issues('assignee=e17415')
+#Get All assigned Issues created today of a particular user
+#issues_in_project = jira.search_issues('assignee=e17415 and created > startOfDay(-0d)')
 #Get All assigned STAGE Issues of a particular user
 #issues_in_project = jira.search_issues('assignee=e17415 and labels in (configurazionegiochistage)')
 #Get All assigned LIVE Issues of a particular user
